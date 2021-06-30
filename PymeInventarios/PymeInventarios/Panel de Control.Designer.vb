@@ -125,7 +125,7 @@ Partial Class Panel_de_Control
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(130, 84)
         Me.Button5.TabIndex = 6
-        Me.Button5.Text = "Histórico de Ventas"
+        Me.Button5.Text = "Historial de Transacciones"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Button6
