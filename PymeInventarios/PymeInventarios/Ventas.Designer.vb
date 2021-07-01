@@ -45,9 +45,9 @@ Partial Class Ventas
         Me.TXT7 = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.Calcular = New System.Windows.Forms.Button()
         Me.Borrar = New System.Windows.Forms.Button()
         Me.Salir = New System.Windows.Forms.Button()
@@ -286,16 +286,16 @@ Partial Class Ventas
         Me.Label16.TabIndex = 37
         Me.Label16.Text = "SubTotal $"
         '
-        'Label15
+        'Label13
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.Black
-        Me.Label15.Location = New System.Drawing.Point(364, 10)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(106, 16)
-        Me.Label15.TabIndex = 35
-        Me.Label15.Text = "Precio Unitario $"
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Black
+        Me.Label13.Location = New System.Drawing.Point(58, 10)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(62, 16)
+        Me.Label13.TabIndex = 31
+        Me.Label13.Text = "Producto"
         '
         'Label14
         '
@@ -308,16 +308,16 @@ Partial Class Ventas
         Me.Label14.TabIndex = 33
         Me.Label14.Text = "Cantidad"
         '
-        'Label13
+        'Label15
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(58, 10)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(62, 16)
-        Me.Label13.TabIndex = 31
-        Me.Label13.Text = "Producto"
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.Black
+        Me.Label15.Location = New System.Drawing.Point(364, 10)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(106, 16)
+        Me.Label15.TabIndex = 35
+        Me.Label15.Text = "Precio Unitario $"
         '
         'Calcular
         '
@@ -433,7 +433,9 @@ Partial Class Ventas
         Me.Controls.Add(Me.CBO1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "Ventas"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Ventas"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

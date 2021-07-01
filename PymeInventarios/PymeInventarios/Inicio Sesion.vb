@@ -41,7 +41,6 @@ Public Class Inicio_Sesion
         Try
             Conexion.ConnectionString = "server=remotemysql.com; user=eDvAECFNbE; password='f5BSe5QKdb'; database=eDvAECFNbE"
             Conexion.Open()
-            MsgBox("Conexión Exitosa Con Base de Datos")
         Catch ex As Exception
             MsgBox("No Se Puede Conectar Con la Base de Datos - No Se Podrá Acceder a EmprendeInventarios")
             Close()

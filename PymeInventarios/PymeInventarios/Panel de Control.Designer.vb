@@ -139,7 +139,7 @@ Partial Class Panel_de_Control
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(130, 84)
         Me.Button6.TabIndex = 7
-        Me.Button6.Text = "Seguimiento de Pedidos"
+        Me.Button6.Text = "Órdenes de Compra"
         Me.Button6.UseVisualStyleBackColor = False
         '
         'Button7
@@ -201,7 +201,9 @@ Partial Class Panel_de_Control
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "Panel_de_Control"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Panel_de_Control"
         Me.ResumeLayout(False)
         Me.PerformLayout()

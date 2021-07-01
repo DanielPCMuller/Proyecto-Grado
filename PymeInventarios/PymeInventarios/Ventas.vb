@@ -42,7 +42,6 @@ Public Class Ventas
     Private Sub Borrar_Click(sender As Object, e As EventArgs) Handles Borrar.Click
         TXT6.Text = ""
         TXT7.Text = ""
-        LST1.Text = ""
         LST2.Text = ""
         LST3.Text = ""
         LST4.Text = ""
