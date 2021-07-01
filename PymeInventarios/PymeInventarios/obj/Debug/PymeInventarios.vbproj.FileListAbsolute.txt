@@ -17,3 +17,6 @@ C:\Users\Daniel PC\Documents\Visual Studio 2015\Projects\PymeInventarios\PymeInv
 C:\Users\Daniel PC\Documents\Visual Studio 2015\Projects\PymeInventarios\PymeInventarios\obj\Debug\PymeInventarios.xml
 C:\Users\Daniel PC\Documents\Visual Studio 2015\Projects\PymeInventarios\PymeInventarios\obj\Debug\PymeInventarios.pdb
 C:\Users\Daniel PC\Documents\Visual Studio 2015\Projects\PymeInventarios\PymeInventarios\obj\Debug\PymeInventarios.Pedidos.resources
+C:\Users\Daniel PC\Documents\GitHub\Proyecto-Grado\PymeInventarios\PymeInventarios\obj\Debug\PymeInventarios.exe
+C:\Users\Daniel PC\Documents\GitHub\Proyecto-Grado\PymeInventarios\PymeInventarios\obj\Debug\PymeInventarios.xml
+C:\Users\Daniel PC\Documents\GitHub\Proyecto-Grado\PymeInventarios\PymeInventarios\obj\Debug\PymeInventarios.pdb
